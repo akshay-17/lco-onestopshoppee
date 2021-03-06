@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { API } from '../backend';
 import "../styles.css"
 import Base from "./Base"
 

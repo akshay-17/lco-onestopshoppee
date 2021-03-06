@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, Redirect, useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { isAutheticated } from '../auth/helper';
 import Base from '../core/Base';
 import { createaProduct, getCategories } from './helper/adminapicall';
